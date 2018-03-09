@@ -11,7 +11,7 @@
 ------
 * 铃声多多网站的爬虫脚本,用来抓取铃声多多官网的铃声数据并下载。
 
-* [我的博客](http://blog.csdn.net/guodongxiaren) 
+* [我的博客](http://www.yangziyao.top) 
 -------
 
 
