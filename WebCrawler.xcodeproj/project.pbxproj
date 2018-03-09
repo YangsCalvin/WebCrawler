@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1560CE461C91DC25C041E819 /* libPods-WebCrawler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3329C0C5C48DC2A8131C78 /* libPods-WebCrawler.a */; };
+		188E3A7420521C3900EF8592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A7320521C3900EF8592 /* main.m */; };
+		188E3A7C20521C9500EF8592 /* NSString+Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A7B20521C9500EF8592 /* NSString+Substring.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		188E3A6E20521C3900EF8592 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		188E3A7020521C3900EF8592 /* WebCrawler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WebCrawler; sourceTree = BUILT_PRODUCTS_DIR; };
+		188E3A7320521C3900EF8592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188E3A7A20521C9500EF8592 /* NSString+Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Substring.h"; sourceTree = "<group>"; };
+		188E3A7B20521C9500EF8592 /* NSString+Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Substring.m"; sourceTree = "<group>"; };
+		6AF4B13408E185AAE68DF2DE /* Pods-WebCrawler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3329C0C5C48DC2A8131C78 /* libPods-WebCrawler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebCrawler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA28C4284AA78729CA02BC02 /* Pods-WebCrawler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawler.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188E3A6D20521C3900EF8592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1560CE461C91DC25C041E819 /* libPods-WebCrawler.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188E3A6720521C3900EF8592 = {
+			isa = PBXGroup;
+			children = (
+				188E3A7220521C3900EF8592 /* WebCrawler */,
+				188E3A7120521C3900EF8592 /* Products */,
+				C355585E36C2380F4102054D /* Pods */,
+				9DECBE54111367E4ACE1D65E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188E3A7120521C3900EF8592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A7020521C3900EF8592 /* WebCrawler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188E3A7220521C3900EF8592 /* WebCrawler */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A7A20521C9500EF8592 /* NSString+Substring.h */,
+				188E3A7B20521C9500EF8592 /* NSString+Substring.m */,
+				188E3A7320521C3900EF8592 /* main.m */,
+			);
+			path = WebCrawler;
+			sourceTree = "<group>";
+		};
+		9DECBE54111367E4ACE1D65E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3329C0C5C48DC2A8131C78 /* libPods-WebCrawler.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C355585E36C2380F4102054D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AF4B13408E185AAE68DF2DE /* Pods-WebCrawler.debug.xcconfig */,
+				BA28C4284AA78729CA02BC02 /* Pods-WebCrawler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188E3A6F20521C3900EF8592 /* WebCrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188E3A7720521C3900EF8592 /* Build configuration list for PBXNativeTarget "WebCrawler" */;
+			buildPhases = (
+				2F75FAAB5DCA2890449B4A44 /* [CP] Check Pods Manifest.lock */,
+				188E3A6C20521C3900EF8592 /* Sources */,
+				188E3A6D20521C3900EF8592 /* Frameworks */,
+				188E3A6E20521C3900EF8592 /* CopyFiles */,
+				296FF6B72F75A6DDA391AD42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebCrawler;
+			productName = WebCrawler;
+			productReference = 188E3A7020521C3900EF8592 /* WebCrawler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188E3A6820521C3900EF8592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WebCrawler;
+				TargetAttributes = {
+					188E3A6F20521C3900EF8592 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 188E3A6B20521C3900EF8592 /* Build configuration list for PBXProject "WebCrawler" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188E3A6720521C3900EF8592;
+			productRefGroup = 188E3A7120521C3900EF8592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188E3A6F20521C3900EF8592 /* WebCrawler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296FF6B72F75A6DDA391AD42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F75FAAB5DCA2890449B4A44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188E3A6C20521C3900EF8592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E3A7420521C3900EF8592 /* main.m in Sources */,
+				188E3A7C20521C9500EF8592 /* NSString+Substring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188E3A7520521C3900EF8592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		188E3A7620521C3900EF8592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		188E3A7820521C3900EF8592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF4B13408E185AAE68DF2DE /* Pods-WebCrawler.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188E3A7920521C3900EF8592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA28C4284AA78729CA02BC02 /* Pods-WebCrawler.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188E3A6B20521C3900EF8592 /* Build configuration list for PBXProject "WebCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E3A7520521C3900EF8592 /* Debug */,
+				188E3A7620521C3900EF8592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188E3A7720521C3900EF8592 /* Build configuration list for PBXNativeTarget "WebCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E3A7820521C3900EF8592 /* Debug */,
+				188E3A7920521C3900EF8592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188E3A6820521C3900EF8592 /* Project object */;
+}
