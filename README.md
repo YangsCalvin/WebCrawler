@@ -8,20 +8,26 @@
 
 
 说明
-===
+------
 * 铃声多多网站的爬虫脚本,用来抓取铃声多多官网的铃声数据并下载。
 
 * [我的博客](http://blog.csdn.net/guodongxiaren) 
 -------
 
+
+
 免责声明
-===
+------
 * 本项目旨在学习macOS 项目的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 * 包含功能：爬取数据
 * 若使用中遇到遇到问题， Issue me！
+
+|Author|  CodyCalvin  |
+| -----|:------------:|
+|E-mail| CodyCalvin@163.com|
 ------
 安装
-===
+------
 1. 懒人安装 
 
 *  打开 `实用工具-` >`Terminal(终端)`，执行以下命令即可。(需要git支持) `cd ~/Downloads && git https://github.com/CodyCalvin/WebCrawler.git`
@@ -35,7 +41,7 @@
 *  点击`clone or download`下载项目，`WebCrawler.xcodeproj`。然后运行工程，如果用户`Xcode`有打印内容，证明成功。
 
 更换获取音乐类别
-====
+------
 
 enum MusicType
 {
@@ -62,15 +68,16 @@ enum MusicType
 ```java 
 NSString *urlString = [NSString stringWithFormat:@"http://www.shoujiduoduo.com/home/detail_%d_%zd_30.html",HottestRingtones,i];
 ```
-
 -------
 
 依赖
-====
-* `Xcode`  `Mac`
+------
+* [Mac](https://www.apple.com/cn/mac "悬停显示")  [Xcode](https://developer.apple.com/xcode)
 
-
+更新
+------
+* 此项目将持续更行，另会增加App版本更方便更快捷 
 
 最后
-====
+------
 * 使用愉快~
