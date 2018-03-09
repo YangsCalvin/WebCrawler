@@ -29,6 +29,7 @@
 		188E3A7320521C3900EF8592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188E3A7A20521C9500EF8592 /* NSString+Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Substring.h"; sourceTree = "<group>"; };
 		188E3A7B20521C9500EF8592 /* NSString+Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Substring.m"; sourceTree = "<group>"; };
+		18CEEB0220528BE5005C1FA3 /* WechatIMG13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG13.jpeg; sourceTree = "<group>"; };
 		6AF4B13408E185AAE68DF2DE /* Pods-WebCrawler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler.debug.xcconfig"; sourceTree = "<group>"; };
 		AA3329C0C5C48DC2A8131C78 /* libPods-WebCrawler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebCrawler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA28C4284AA78729CA02BC02 /* Pods-WebCrawler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawler.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		188E3A7220521C3900EF8592 /* WebCrawler */ = {
 			isa = PBXGroup;
 			children = (
+				18CEEB0220528BE5005C1FA3 /* WechatIMG13.jpeg */,
 				188E3A7A20521C9500EF8592 /* NSString+Substring.h */,
 				188E3A7B20521C9500EF8592 /* NSString+Substring.m */,
 				188E3A7320521C3900EF8592 /* main.m */,
